@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding: 0;
+    background-color: gray;
+    color: white;
+    box-sizing: border-box; 
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    font-family: "Vast Shadow", serif;
+        font-weight: 400;
+        font-style: italic;        
+}
+
+  .container{
+    margin: 60px auto;
+    width: 960%;
+    background-color: #222;
+}
+#resim {
+    text-align:center;
+    text-align:justify;
+    margin-left: 20%;
+}
+
+#menu{
+    background-color: white;
+    box-shadow: 10px 25px 15px #222;
+
+}
+#menu ul{
+    display: flex;
+    justify-content: space-around; 
+    list-style-type: none;
+    
+}
+#menu a{
+    text-decoration: none;
+    color:#e66c06;
+    font-size: larger;
+    padding: 10px;
+    display: inline-block;
+    transition: 1s;
+}
+footer{
+    margin: 20px;
+}

@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim</title>
+</head>
+<body>
+    <h1>Mesaj Gönder</h1>
+    <form action="kaydet.html" method="post">
+        <fieldset>
+            <legend><strong>Mesaj Göder</strong></legend>
+
+            <label for="ad">Adınız:</label>
+            <input type="text" name="ad" id="ad"  placeholder="Adınızı Girniz" required ><br><br>
+
+            <label for="ad">Adınız:</label>
+            <input type="email" name="post" id="post"  placeholder="Epostanızı Giriniz" required ><br><br>
+
+           
+
+            <input type="radio" name="cinsiyet" id="kiz" value="kiz">   
+            <label for="kiz">kız</label> 
+
+            <input type="radio" name="cinsiyet" id="erkek" value="erkek">
+            <label for="erkek">erkek</label> <br><br>
+
+            <label for="bilgi"></label>
+            <input type="text" name="hobi" id="hobi" list="hobiler" placeholder="Bilgi Verin" >
+             <datalist id="bilgiler">
+                <option value="Bilgi almak istiyorum">
+                <option value="Öneride bulunmak istiyorum">
+                <option value="Şikayetimi iletmek istiyorum">
+             </datalist>><br><br>
+
+                <textarea name="not" id="not" cols="50" rows="10">Lorem ipsum dolor sit amet consectetur adipisicing elit. A tempora impedit sit tenetur minus, optio, soluta at eveniet excepturi consectetur, doloribus eaque? Qui numquam voluptatem obcaecati voluptas, est sapiente dolorum.</textarea>
+                <br>
+                <button type="submit">Göder</button>
+                <button type="reset">Sıfırla</button>
+
+        </fieldset>
+
+
+    </form>
+</body>
+</html>
